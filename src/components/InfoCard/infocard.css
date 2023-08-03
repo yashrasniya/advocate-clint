@@ -1,0 +1,31 @@
+.infocard-wrapper{
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: max-content;
+    transition: 0.5s linear all;
+
+}
+.infoCard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid green; */
+    height: 83vh;
+}
+
+.infoCard img{
+    width: 500px;
+    margin-top: auto;
+    /* border: 2px solid red; */
+}
+.infocard-title{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infocard-title p{
+    font-size: 18px;
+    font-weight: bold;
+}

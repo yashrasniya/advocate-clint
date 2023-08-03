@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.transactions{
+    display: flex;
+    gap: 20px;
+    background-color: #F1F2F6;
+}
+.transaction-history{
+    display: flex;
+    flex: 1.7;
+    box-shadow: 1px 1px 5px grey;
+    background-color: white;
+    margin: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 5px;
+
+}
+.account-details{
+    flex: 1;
+    box-shadow: 1px 1px 5px grey;
+    margin: 20px;
+    position: sticky;
+    top: 95px;
+    height: calc(100vh - 150px);
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.payment{
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid grey;
+    padding: 20px 40px;
+    justify-content: space-between;
+    border-left: none;
+    border-right: none;
+}
+.payment-info{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.payment-info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.u-name{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.payment-user-info{
+    display: flex;
+    flex-direction: column;
+}
+.payment-date{
+    color: grey;
+    font-size: 16px;
+}
+.payment-amount{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+.amount-title{
+    font-size: 20px;
+    color: #c79128;
+}
+.payment-amount h1{
+    font-size: 40px;
+}
+.bankdetails-header{
+    /* border: 2px solid black; */
+    margin: 30px;
+    display: flex;
+    height: 100%;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+}
+
+.custom-input {
+    position: relative;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+.add-details-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    align-self: center;
+    /* color:  */
+}
+.add-details{
+    font-size: 12px;
+}
+.ac-details{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.feild{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    width: 80%;
+}
+.feild span{
+    align-self: flex-start;
+    font-size: 14px;
+}
+.feild input{
+    padding: 10px 20px;
+    width: 85%;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 10px;
+}
+.save-ac{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 80%;
+    gap: 6px;
+    color: grey;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.save-ac input{
+    width: 18px;
+    height: 18px;
+}
+.add-bank-ac{
+    align-self: center;
+    width: 96%;
+    padding: 14px 0px;
+    color: black;
+    text-transform: uppercase;
+    margin-top: auto;
+    background-color: #ffcd6c;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}

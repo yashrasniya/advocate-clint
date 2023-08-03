@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+.Lawers{
+    display: flex;
+    gap: 30px;
+    background-color: #F1F2F6;
+    padding-bottom: 20px;
+    width: 99vw;
+    /* border: 2px solid red; */
+}
+.sidebar{
+    border: 2px solid black;
+}
+.lawers-wrapper{
+    padding-top: 20px;
+    /* border: 2px solid green; */
+    width: calc(100vw - 370px);
+    display: flex;
+    gap: 40px;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-container{
+    flex: 2;
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px grey;
+
+}
+.card-info{
+    flex: 2;
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-right: 25px;
+    height: 100vh;
+    border-radius: 10px;
+    max-height: fit-content;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px grey;
+    /* height: fit-content; */
+}
+.p{
+    /* border: 2px solid black; */
+    width: inherit;
+    height: max-content;
+    padding: 10px 40px;
+}
+.request-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    padding: 10px;
+    gap: 20px;
+}

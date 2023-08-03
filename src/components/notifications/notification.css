@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.notification-warpper{
+    display: flex;
+    background-color: #F1F2F6;
+}
+.notifications{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 25px;
+    flex-direction: column;
+    width: calc(100vw - 350px);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #b4b4b4;
+    gap: 30px;
+}
+.notifications-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid black; */
+    height: max-content;
+    margin: 40px 40px 10px 40px;
+}
+.bell{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.notifications-header b{
+    font-size: 28px;
+}
+.notifi-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid brown; */
+}
+.notifi{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 1px solid grey;
+    height: max-content;
+    margin: 0px 40px;
+    padding-bottom: 20px;
+}
+.top-left{
+    display: flex;
+    gap:25px;
+    /* border: 2px solid green; */
+    align-items: center;
+}
+.top-right{
+    /* border: 2px solid green; */
+    display: flex;
+    align-self: flex-end;
+    color: #b4b4b4;
+    font-size: 17px;;
+    align-items: center;
+    gap: 7px;
+}
+.subject{
+    background-color: green;
+    color: white;
+    font-size: 13px;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.read{
+    background-color: rgb(150, 126, 64);
+}
+.cross{
+    background-color: lightgrey;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+}
+.notifi-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.message{
+    width: 70%;
+    color: #b4b4b4;
+    font-size: 18px;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wallet-container{
+    display: flex;
+    /* border: 2px solid black; */
+    height: calc(100vh - 95px);
+    background-color: #F1F2F6;
+
+}
+.wallet{
+    /* border: 2px solid brown; */
+    width: calc(100vw - 300px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wallet-element{
+    width: 85%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px grey;
+    background-color: white;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 30px 40px;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+.ballence{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 10px; 
+}
+.AiOutlineWallet{
+    color:#c79128;
+    font-size: 32px;
+}
+.money{
+    display: flex;
+    flex-direction: column;
+}
+.wallet-hr{
+    width: 80%;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+.wallet-bottom{
+    margin-top: 0px;
+    display: flex;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.wallet-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+.wallet-right{
+    flex: 1;
+    display: flex;
+    /* padding: 20px; */
+    /* border: 2px solid orange; */
+    flex-direction: column;
+    gap: 20px;
+}
+.wallet-left img{
+    width: 300px;
+}
+.wallet-right p{
+    width: 85%;
+    font-size: 15px;
+    color: #848484;
+
+}
