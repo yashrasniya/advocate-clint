@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ChatsSidebar{
+    height: 100vh;
+    /* overflow-y: scroll; */
+    width: 280px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+span:hover{
+    background-color: black;
+}
+.ChatsSidebar::-webkit-scrollbar{
+    display: none;
+}
+.chatside-nav{
+    height: 80px;
+    border-bottom: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color:rgb(40, 40, 40);
+    z-index: 999;
+}
+.chatside-nav:first-child{
+    font-size: 26px;
+    cursor: pointer;
+}
+.msg-nav-serach{
+    background-color: white;
+    position: absolute;
+    padding: 3px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+.msg-nav-serach input{
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.chatside-bottom{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+.chatside-bottom::-webkit-scrollbar{
+    display: none;
+}
+.chatside-bottom p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.chats-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* border: 2px solid brown; */
+    padding: 7px 0px;
+}
+.chats-lists li{
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.msg-list-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.msg-list-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+.msg-recent-info{
+    display: flex;
+    flex-direction: column;
+}
+.msg-recent-info :first-child{
+    font-size: 12px;
+}
+.msg-recent-info-span{
+    font-size: 9px;
+}
+.msg-list-right{
+    display: flex;
+    /* margin-right: 20px; */
+    /* border: 2px solid green; */
+}
+.msg-list-right-time{
+    font-size: 10px;
+    color: lightgrey;
+}
+.chats-lists li:hover{
+    background-color: black;
+    border-left: 5px solid #a88439;
+}

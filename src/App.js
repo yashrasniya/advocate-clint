@@ -12,6 +12,7 @@ import About from './components/aboutus/About'
 import Login from './components/login.jsx/Login'
 import Documents from './components/documents/Documents'
 import { useSelector } from 'react-redux'
+import Chats from './chat/chats/Chats'
 
 function App() {
   const user = useSelector((user)=>user.userReducer.payload)
@@ -29,6 +30,7 @@ function App() {
         <Route path='/editprofile' element={user ?<Editprofile /> : <Login />} />
         <Route path='/reviews' element={user ? <Reviews /> : <Login />} />
         <Route path='/about' element={user ? <About /> : <Login />} />
+        <Route path='/chats' element={user ? <Chats /> : <Login />} />
       </Routes>
     </div>
   )
